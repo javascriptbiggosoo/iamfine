@@ -22,11 +22,13 @@ https://javascriptbiggosoo.github.io/iamfine/
 
 - **(그래프 전용 element가 있을지도 모른다고 생각했습니다.)** html 요소만으로 그래프 차트를 그릴 수 있나?
 
-  원하는 답은 얻지 못했습니다.
+  => 원하는 답은 얻지 못했습니다.
 - td 요소의 텍스트를 유저가 수정할 수 있도록 할 수 있나?
 
-  `contentEditable` property를 알아냈습니다.
+  => `contentEditable` property를 알아냈습니다.
 - flex에서 모든 자식 요소들이 컨테이너의 하단에 위치하도록 하려면 어떻게 해야하지?
+
+  =>
   ```css
   .container {
     display: flex;
@@ -44,6 +46,7 @@ https://javascriptbiggosoo.github.io/iamfine/
 
   "value"의 값은 0~100 사이의 값이어야해
 
+  =>
   ```jsx
   function validateArray(arr) {
   	// 배열의 모든 요소에 대한 검사
@@ -52,12 +55,16 @@ https://javascriptbiggosoo.github.io/iamfine/
   ```
 
   - **(추가 요청)** 각 false 이전에 왜 false가 발생했는지 alert과 console에서 각각 에러메세지가 나오도록해줘
+
+    =>
     ```jsx
     function validateArray(arr) {
     	...
     }
     ```
   - **(추가 요청)** 위에 작성해준 validateArray 함수에서 중복된 id를 허용하지 않는 조건도 추가해줘
+
+    =>
     ```jsx
     validateArray(arr) {
         const idSet = new Set(); // 중복된 id를 체크하기 위한 Set 생성
