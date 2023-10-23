@@ -68,7 +68,9 @@ https://javascriptbiggosoo.github.io/iamfine/
 ### **Google 검색**
 
 - textarea 크기 고정
+  
   `[resize` 프로퍼티](https://velog.io/@leemember/CSS-textarea-%ED%81%AC%EA%B8%B0-%EA%B3%A0%EC%A0%95%ED%95%98%EA%B8%B0) 발견
 - json 판별
+  
   `[isJSonString` 함수](https://blog.voidmainvoid.net/205) 참고
 - 이 외 간단한 것들: "mdn table", "classlist contains", "html dataset"
