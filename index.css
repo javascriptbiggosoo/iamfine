@@ -1,0 +1,68 @@
+section {
+  margin: 50px;
+}
+
+td {
+  border: 1px solid #333;
+}
+
+textarea {
+  height: 250px;
+  width: 100%;
+  resize: none;
+}
+
+/* 그래프 */
+.graph-container {
+  margin: 20px;
+  height: 250px;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.graph-100 {
+  position: absolute;
+  font-weight: 700;
+  bottom: 200px;
+  left: -40px;
+}
+.graph-0 {
+  position: absolute;
+  font-weight: 700;
+  bottom: -10px;
+  left: -20px;
+}
+.graph-bar {
+  width: 20px;
+  height: 200px;
+  background-color: gray;
+  position: relative;
+}
+.graph-id {
+  position: absolute;
+  bottom: -20px;
+}
+
+/* 수정 */
+.value-td {
+  width: 250px;
+}
+.delete-td {
+  color: crimson;
+}
+.delete-td:hover {
+  cursor: pointer;
+}
+
+/* 추가 */
+.id-input {
+  width: 110px;
+}
+.value-input {
+  width: 280px;
+}
+
+/* 고급 수정 */
