@@ -44,6 +44,7 @@ class EditValue {
 
     this.onEditClick(newStates);
   }
+  // event delegation 기법을 사용했습니다.
   deleteValue(ev = new MouseEvent()) {
     if (ev.target.classList.contains("delete-td")) {
       const $deleteBtn = ev.target;
